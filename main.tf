@@ -50,8 +50,8 @@ resource "azurerm_storage_container" "newcontainer2" {
 } 
 
 # Create MySQL Server 
-resource "azurerm_mysql_flexible_server" "serverformation" { 
- name    =  "serverformationiac" 
+resource "azurerm_mysql_flexible_server" "serverformation1" { 
+ name    =  "serverformationiac-team3" 
 location    =  var.location 
 resource_group_name  =  var.rg_name  
 administrator_login   =  "adminfteam3" 
